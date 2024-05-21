@@ -1,0 +1,40 @@
+---
+title: Button
+description: Button
+---
+
+## Code Block
+
+```js
+<Button
+  text="Button"
+  textColor = "#fff"
+  variant = "contained"
+  onClick="() => console.log('Button Clicked')"
+>
+```
+
+### type
+
+```js
+type Props = {
+  text?: string;
+  textColor?: string;
+  children?: React.ReactNode;
+  variant?: "text" | "outlined" | "contained";
+  style?: any;
+  startIcon?: React.ReactNode;
+  endIcon?: React.ReactNode;
+  onClick: () => void;
+};
+```
+
+## Cards
+
+<Cards>
+  <Card
+    title="Button source code"
+    href="https://github.com/J4NLab/J4N-UI/tree/main/src/components/Button"
+  />
+</Cards>
+import {json} from "stream/consumers"
